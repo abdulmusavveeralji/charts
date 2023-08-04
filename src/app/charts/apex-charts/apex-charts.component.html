@@ -1,0 +1,4 @@
+<div class="charts">
+  <button *ngFor="let i of charts"><a [routerLink]="i.path">{{ i.name }}</a></button>
+</div>
+<router-outlet></router-outlet>
